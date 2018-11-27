@@ -1,0 +1,244 @@
+/*Page masters
+------------------------------------*/
+/*Tabs v1
+------------------------------------
+.tab-v1 .nav-tabs {
+	border: none;
+	background: none;
+	border-bottom: solid 2px #72c02c;
+}
+
+.tab-v1 .nav-tabs a {
+	font-size: 14px;
+	padding: 5px 15px;
+}
+
+.tab-v1 .nav-tabs > .active > a,
+.tab-v1 .nav-tabs > .active > a:hover,
+.tab-v1 .nav-tabs > .active > a:focus {
+	color: #fff;
+	border: none;
+	background: #72c02c;
+}
+
+.tab-v1 .nav-tabs > li > a {
+	border: none;
+}
+.tab-v1 .nav-tabs > li > a:hover {
+	color: #fff;
+	background: #72c02c;
+}
+
+.tab-v1 .tab-content {
+	padding: 10px 0;
+}
+
+.tab-v1 .tab-content img {
+	margin-top: 4px;
+	margin-bottom: 15px;
+}
+
+.tab-v1 .tab-content img.img-tab-space {
+	margin-top: 7px;
+}*/
+
+.prueba h3 {
+		line-height: 20px !important;
+		font-size: 15px;
+		font-weight: 600;
+
+}
+
+/*listado de actividades
+------------------------------------*/
+
+.seccion-int h3 {
+		line-height: 20px !important;
+		font-size: 15px;
+		font-weight: 600;		
+		color:#555555 !important;
+
+}
+
+.seccion-int a:link, #seccion-int a:visited {
+
+		color:#555555 !important;
+		font-weight: normal;
+}
+
+.seccion-int {
+	margin:0px 5px 5px 0px;
+	padding: 0px 5px 0px 5px;
+	color:#555555 !important;
+	border-bottom: 1px solid #eee;
+	/*box-shadow: 0 0 3px #eee;*/
+}
+
+
+
+/*listado de masters
+------------------------------------*/
+.titulo-area {
+
+background-color:#666; 
+padding:8px; 
+
+	margin-top: 15px;
+/*	margin-right: 20px;*/
+	margin-bottom: 12px;
+	margin-left: 0px;
+
+color:#fefefe; 
+font-weight: 700; 
+font-size:15px;
+
+}
+
+.master h3 {
+		line-height: 24px !important;
+		font-size: 16px !important;
+		font-weight: 400 !important;
+
+}
+
+.master a {
+
+		color:#555555;
+		font-weight: normal;
+}
+
+
+.master {
+	width: inherit;
+		
+	/*margin:0px 0px 20px 0px;*/
+	border-bottom: 1px solid #eee;
+	/*box-shadow: 0 0 3px #eee;*/
+
+}
+
+
+.menutp {
+   
+	list-style:none;
+  padding: 0px 2px 2px 2px;
+    border-style: none none solid none;
+    border-color: #ccc;
+    border-width: 1px;
+	/*line-height: 130%;*/
+	font-weight:bold;
+
+/*
+
+	list-style-position:outside;
+*/
+}
+
+.menutp a {
+line-height: 20px !important;
+  /*  text-decoration: none;*/
+	font-size:14px;
+	/*margin:0px 0px 9px 0px;*/
+}	
+
+.menutp a:link, #menutp a:visited {
+    color: #666;
+
+}
+
+
+
+.menutp li {
+	line-height: 18px;
+	padding-bottom: 6px !important;
+	/*padding: 0px 0px 8px 0px;*/
+}
+
+
+.menutp li a {
+
+    text-decoration: none;
+	font-weight:normal;
+	list-style:none;
+		font-size:14px;
+	/*margin-left:10px;*/
+
+
+}	
+
+/*.menutp li a:link, .menutp li a:visited {
+    color: #636363;
+}*/
+
+.menutp li a:hover {
+    color: #666;
+    text-decoration: underline;
+
+}
+
+.titulospropios  {
+/*    font-size : 12px;*/
+    font-weight: bold;
+    color: #333;
+	    	margin-bottom: 35px !important;
+
+
+}
+
+.titulospropios a {
+/*	line-height: 22px !important;*/
+    	margin-bottom: 35px !important;
+
+}
+
+.titulospropios_grey {
+    font-size: 12px;
+    line-height: 18px;
+	/*margin-bottom: 5px;*/
+}
+
+.matriculable {
+
+    color: #d9534f !important;/*ec6409 4644b1*/
+    text-decoration: none;
+}
+
+
+/*lateral derecho TP*/
+
+ .faq-add {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: #eee;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: #eee;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: #eee;
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+	/* min-height: 175px; cfp*/
+}
+ .top-part i {
+    color: #777;
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 3px;
+}

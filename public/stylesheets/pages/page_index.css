@@ -1,0 +1,180 @@
+/*Page index
+------------------------------------*/
+/*Search Block*/
+.search-block {
+	padding: 50px 0;
+	text-align: center;
+	position: relative;
+	margin-bottom: 10px;
+	background: url(../../img/fondos/buscador.jpg) 50% 0 repeat fixed;		
+}
+
+.search-block:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+	content: " ";
+	position: absolute;
+	background: rgba(0,0,0,0.3);
+	
+}
+
+.search-block h1 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	/*margin-bottom: 20px;*/
+	text-transform: uppercase;	
+}
+
+.search-block .input-group {
+	margin-bottom: 10px;
+}
+
+.search-block .form-control {
+	border: none;
+	height: 38px;
+	font-size: 16px;
+	font-weight: 200;
+	
+}
+
+
+
+/*search internas CFP
+------------------------------------*/
+.job-img-congresos {
+	overflow: hidden;
+	position: relative;
+	min-height: 240px;
+	background: url(../../img/fondos/congresos.jpg) 70% 40% no-repeat;
+  background-size: cover;
+  background-position: center center;	
+}
+
+.job-img-tp {
+	overflow: hidden;
+	position: relative;
+	min-height: 400px;
+	background: url(/images/fondos/fondo-master-18-2.jpg) 70% 40% no-repeat;
+  background-size: cover;
+  background-position: center center;	
+}
+
+.job-img .job-banner {
+	padding: 10px 10px 5px 10px !important;
+	max-width: 500px;
+	margin: 40px auto 100px;	
+	background: rgba(51,51,51,0.3);
+}
+
+.job-img .job-banner h1 {
+color:#FFFFFF;
+  font-size:24px;
+  font-weight:400;
+ /* margin-bottom:20px;*/
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.job-img .job-banner h2 {
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.job-img .job-banner {
+		padding: 10px 10px 5px 10px;
+		margin: 20px auto 100px;	
+	}
+}
+
+.job-img .job-img-inputs {
+	left: 0;
+	right: 0;
+	bottom: -7px;
+	padding: 20px 0;
+	position: absolute;
+	background: rgba(0,0,0,0.9);
+	font-size:14px;
+}
+
+.job-img .input-group {
+	margin-bottom: 10px;
+
+}
+
+.job-img .form-control {
+	border: none;
+	height: 26px;
+	font-size: 13px;
+	font-weight: 200;
+	font-color: #fff;
+	background-color: #666;
+	color: #fefefe !important;
+}
+
+
+
+
+/*Category
+------------------------------------*/
+/*Section-Block*/
+.section-block {
+	padding: 20px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 3px #eee;
+}
+
+.section-block h2 {
+	color: #333; 
+	font-size: 28px; 
+	font-weight: 200; 
+	margin: 10px 0 15px;
+}
+
+.section-block .text-center p {
+	margin-bottom: 0;
+}
+
+.section-block .section-block-info {
+	margin-top: 5px;
+	padding-top: 20px;
+	border-top: solid 1px #eee;
+}
+
+.section-block .section-block-info ul {
+	margin-bottom: 0;
+}
+
+/*listado de actividades
+------------------------------------*/
+
+.seccion-curso h3 {
+		line-height: 24px !important;
+		font-size: 17px;
+		font-weight: 600 !important;
+}
+
+.seccion-curso a {
+
+		color:#555555;
+		font-weight: normal;
+}
+
+.boton-listado a {
+
+		color:#ffffff !important;
+		font-weight: normal;
+}
+
+
+.seccion-curso {
+	margin:0px 0px 10px 0px;
+	border-bottom: 1px solid #eee;
+	/*box-shadow: 0 0 3px #eee;*/
+}

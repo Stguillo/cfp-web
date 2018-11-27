@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+	 
+	/* CSS para la animación y localización de los DIV de cookies -------------------------------------*/
+	 
+	@keyframes desaparecer
+	{
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%		{bottom: -50px;}
+	}
+	 
+	@-webkit-keyframes desaparecer /* Safari and Chrome */
+	{
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%		{bottom: -50px;}
+	}
+	 
+	@keyframes aparecer
+	{
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%		{bottom: -38px;}
+	}
+	 
+	@-webkit-keyframes aparecer /* Safari and Chrome */
+	{
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%		{bottom: -38px;}
+	}
+	#cookiesms1:target {
+	    display: none;
+	}
+	.cookiesms{	
+
+	bottom:0px;
+	position:fixed;
+	left: 0px;
+	text-align: center;
+	background-color: #eeeeee;
+	transition: bottom 1s;
+	-webkit-transition:bottom 1s; /* Safari */
+	z-index:999999999;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+	padding: 5px 2px 2px 10px;
+
+	}
+	 
+	.cookiesms:hover{
+	bottom:0px;
+	}
+	
+	 
+	/* Fin del CSS para cookies */
+	#cookie1 {
+	  bottom : 0px;
+	}
+
+	
+ /* Fin CSS para la animación y localización de los DIV de cookies -----------------------------------------------------------*/

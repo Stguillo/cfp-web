@@ -1,0 +1,56 @@
+.header
+    .lineaUPV-header
+    .container
+        .row
+            .col-md-4.col-md-offset-3
+                .topbar-cfp
+                    #barraHerramientas
+                        ul
+                            li.menuHerramientas
+                                a.menuHerramientas(href='/formacion-permanente/masters') Valenci&agrave;
+                                span    I   
+                            li.menuHerramientas
+                                a.menuHerramientas(href='javascript:disminuir();', title='Tipografia mas pequeña') a
+                                span   &middot;  
+                                a.menuHerramientas(href='javascript:aumentar();', title='Tipografia mas grande') A
+            .col-md-2.col-md-offset-3
+    .container.hidden-xs
+        .row.margin-bottom-15
+            .col-sm-6.col-md-6(align='left')
+                a(href='http://www.upv.es')
+                    img#CFP-header(src='../../images/header/upv-header-cfp-50.png', alt='Logo UPV', width='170')
+            .col-sm-5.col-md-6(align='right')
+                a(href='http://www.cfp.upv.es')
+                    img#CFP-header(src='../../images/header/logo-cfp-header-cfp3.png', alt='Logo CFP', width='127')
+            .col-sm-1.col-xs-1.pull-right
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-responsive-collapse')
+                    span.sr-only Toggle navigation
+                    span.fa.fa-bars
+    .container.visible-xs
+        .row.margin-bottom-15
+            .col-xs-11(align='center')
+                img#CFP-header(src='../../images/header/upv+cfp.png', width='218', alt='Logo UPV')
+                button.navbar-toggle(type='button', data-toggle='collapse' data-target='.navbar-responsive-collapse')
+                    span.sr-only Toggle navigation
+                    span.fa.fa-bars
+    .collapse.navbar-collapse.mega-menu.navbar-responsive-collapse
+        .container  
+            ul.nav.navbar-nav
+                li
+                    a.dropdown-toggle(href='/index/') Inicio
+                li
+                    a.dropdown-toggle(href='/cursos/') Cursos y jornadas
+                li
+                    a.dropdown-toggle(href='/masters/') Másteres y otros Títulos Propios
+                li
+                    a.dropdown-toggle(href='/online/') Formación online
+                li
+                    a.dropdown-toggle(href='/congresos/') Congresos
+                li
+                    a.dropdown-toggle(href='/contacto/') Contacto
+            form.navbar-form.navbar-form-cab.navbar-right
+                .form-group
+                    a#entrada.btn-u.btn-u-dark.btn-u-xs(href='https://poseidon.cfp.upv.es/portal-formacion/registro/identif.jsp?idioma=es') Registrarse
+                    a#entrada.btn-u.btn-u-xs(href='https://poseidon.cfp.upv.es/portal-formacion/registro/identif.jsp?idioma=es')
+                        i.fa.fa-user 
+                        =' Iniciar sesión'
